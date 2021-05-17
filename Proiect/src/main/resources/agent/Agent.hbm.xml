@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="agent">
+    <class name="domain.Agent"
+           table="Agenti">
+        <id name="id" column="id" type="java.lang.Integer">
+            <generator class="increment"/>
+        </id>
+        <property
+                name="nume"
+                column="nume" type="java.lang.String"/>
+        <property
+                name="parola"
+                column="parola" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>
