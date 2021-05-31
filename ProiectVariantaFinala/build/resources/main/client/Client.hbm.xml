@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="client">
+    <class name="domain.Client"
+           table="Clienti">
+        <id name="id" column="id" type="java.lang.Integer">
+            <generator class="increment"/>
+        </id>
+        <property
+                name="nume"
+                column="nume" type="java.lang.String"/>
+        <property
+                name="prenume"
+                column="prenume" type="java.lang.String"/>
+        <property
+                name="adresa"
+                column="adresa" type="java.lang.String"/>
+        <property
+                name="nrTel"
+                column="nrTel" type="java.lang.Integer"/>
+        <property
+                name="idAgent"
+                column="idAgent" type="java.lang.Integer"/>
+    </class>
+</hibernate-mapping>

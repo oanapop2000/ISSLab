@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="292.0" prefWidth="507.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <TableView fx:id="tabelProduse" prefHeight="292.0" prefWidth="286.0">
+        <columns>
+          <TableColumn fx:id="coloanaNume" prefWidth="75.0" text="Produs" />
+          <TableColumn fx:id="coloanaPret" prefWidth="75.0" text="Pret" />
+            <TableColumn fx:id="coloanaCantitate" prefWidth="75.0" text="Cantitate" />
+            <TableColumn fx:id="coloanaId" prefWidth="75.0" text="Id" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button layoutX="346.0" layoutY="30.0" mnemonicParsing="false" onAction="#openComanda" text="Realizeaza o comanda" />
+      <Button layoutX="346.0" layoutY="95.0" mnemonicParsing="false" onAction="#openAnulare" prefHeight="25.0" prefWidth="133.0" text="Anuleaza o comanda" />
+      <Button layoutX="344.0" layoutY="162.0" mnemonicParsing="false" onAction="#openComenzi" prefHeight="25.0" prefWidth="133.0" text="Vizualizeaza comenzi" />
+      <Button layoutX="344.0" layoutY="229.0" mnemonicParsing="false" onAction="#openClienti" prefHeight="25.0" prefWidth="133.0" text="Vizualizeaza clienti" />
+   </children>
+</AnchorPane>

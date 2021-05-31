@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="comanda">
+    <class name="domain.Comanda"
+           table="Comenzi">
+        <id name="id" column="id" type="java.lang.Integer">
+            <generator class="increment"/>
+        </id>
+        <property
+                name="idAgent"
+                column="idAgent" type="java.lang.Integer"/>
+        <property
+                name="idClient"
+                column="idClient" type="java.lang.Integer"/>
+        <property
+                name="idProdus"
+                column="idProdus" type="java.lang.Integer"/>
+        <property
+                name="cantitate"
+                column="cantitate" type="java.lang.Integer"/>
+        <property
+                name="status"
+                column="status" type="java.lang.String"/>
+    </class>
+</hibernate-mapping>

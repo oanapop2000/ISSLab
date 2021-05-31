@@ -1,0 +1,81 @@
+domain/validator/AgentValidator.java
+ domain.validator.AgentValidator
+utils/events/ChangeEventType.java
+ utils.events.ChangeEventType
+org/hibernate/dialect/SQLiteDialect.java
+ org.hibernate.dialect.SQLiteDialect
+ org.hibernate.dialect.SQLiteDialect$1
+ org.hibernate.dialect.SQLiteDialect$2
+ org.hibernate.dialect.SQLiteDialect$3
+ org.hibernate.dialect.SQLiteDialect$4
+ org.hibernate.dialect.SQLiteDialect$SQLiteUniqueDelegate
+repository/AgentRepository.java
+ repository.AgentRepository
+utils/events/Event.java
+ utils.events.Event
+utils/observer/Observable.java
+ utils.observer.Observable
+domain/Agent.java
+ domain.Agent
+utils/observer/Observer.java
+ utils.observer.Observer
+domain/validator/ComandaValidator.java
+ domain.validator.ComandaValidator
+domain/validator/ValidationException.java
+ domain.validator.ValidationException
+utils/events/ChangeEvent.java
+ utils.events.ChangeEvent
+repository/Repository.java
+ repository.Repository
+controller/MessageAlert.java
+ controller.MessageAlert
+domain/Produs.java
+ domain.Produs
+domain/validator/ProdusValidator.java
+ domain.validator.ProdusValidator
+org/hibernate/dialect/identity/SQLiteDialectIdentityColumnSupport.java
+ org.hibernate.dialect.identity.SQLiteDialectIdentityColumnSupport
+domain/Comanda.java
+ domain.Comanda
+repository/RepositoryException.java
+ repository.RepositoryException
+domain/Entity.java
+ domain.Entity
+domain/validator/ClientValidator.java
+ domain.validator.ClientValidator
+domain/Client.java
+ domain.Client
+domain/validator/Validator.java
+ domain.validator.Validator
+service/ServicesException.java
+ service.ServicesException
+repository/ClientRepository.java
+ repository.ClientRepository
+controller/AnulareController.java
+ controller.AnulareController
+controller/LoginController.java
+ controller.LoginController
+service/Service.java
+ service.Service
+repository/ProdusRepository.java
+ repository.ProdusRepository
+repository/AgentDBRepository.java
+ repository.AgentDBRepository
+repository/ComandaDBRepository.java
+ repository.ComandaDBRepository
+controller/MainController.java
+ controller.MainController
+controller/ComenziController.java
+ controller.ComenziController
+controller/ComandaController.java
+ controller.ComandaController
+MainFX.java
+ MainFX
+repository/ClientDBRepository.java
+ repository.ClientDBRepository
+repository/ProdusDBRepository.java
+ repository.ProdusDBRepository
+repository/ComandaRepository.java
+ repository.ComandaRepository
+controller/ClientiController.java
+ controller.ClientiController

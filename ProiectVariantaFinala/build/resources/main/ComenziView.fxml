@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="318.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ComenziController">
+   <children>
+      <TableView fx:id="table" layoutX="-6.0" prefHeight="400.0" prefWidth="326.0">
+        <columns>
+          <TableColumn fx:id="coloanaClient" prefWidth="75.0" text="IdClient" />
+          <TableColumn fx:id="coloanaProdus" prefWidth="83.33330535888672" text="IdProdus" />
+            <TableColumn maxWidth="-1.0" minWidth="-1.0" prefWidth="-1.0" text="Cantitate" />
+            <TableColumn fx:id="coloanaCantitate" prefWidth="83.33330535888672" text="Cantitate" />
+            <TableColumn fx:id="coloanaStatus" prefWidth="83.33330535888672" text="Status" />
+            <TableColumn fx:id="coloanaAgent" prefWidth="75.0" text="IdAgent" />
+            <TableColumn fx:id="coloanaId" prefWidth="75.0" text="Id" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</AnchorPane>

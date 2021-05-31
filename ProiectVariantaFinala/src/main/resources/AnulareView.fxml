@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="207.0" prefWidth="282.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AnulareController">
+   <children>
+      <Label layoutX="51.0" layoutY="73.0" text="Id-ul comenzii" />
+      <TextField fx:id="textField" layoutX="141.0" layoutY="69.0" prefHeight="25.0" prefWidth="83.0" />
+      <Button layoutX="109.0" layoutY="143.0" mnemonicParsing="false" onAction="#anuleaza" text="Anuleaza" />
+   </children>
+</AnchorPane>
